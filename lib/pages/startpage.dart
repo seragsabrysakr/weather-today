@@ -115,9 +115,7 @@ class _StartpageState extends State<Startpage> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => weatherdata == null
-                                    ? CircularProgressIndicator()
-                                    : HomePage()));
+                                builder: (context) => HomePage()));
                       },
                       child: const Text(
                         'Weather By your location 🗺️',
