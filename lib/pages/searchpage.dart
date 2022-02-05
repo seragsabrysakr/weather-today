@@ -104,9 +104,7 @@ class _SearchpageState extends State<Searchpage> {
                 Navigator.push(
                     context,
                     MaterialPageRoute(
-                        builder: (context) => weatherdata == null
-                            ? CircularProgressIndicator()
-                            : HomePage()));
+                        builder: (context) =>   HomePage()));
               },
               height: 50,
               minWidth: 200,
