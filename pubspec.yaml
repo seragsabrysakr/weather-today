@@ -1,0 +1,57 @@
+name: weather_today
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flare_flutter: ^3.0.2
+  http: ^0.13.4
+  provider: ^6.0.2
+  intl: ^0.17.0
+  geolocator: ^8.0.5
+  geocoding: ^2.0.2
+ 
+
+dev_dependencies:
+
+  
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+
+ 
+  assets:
+    - assets/back/
+    - assets/states/
+    - assets/WorldSpin.flr
+
+
+  fonts:
+    - family: AbrilFatface-Regular
+      fonts:
+        - asset: assets/fonts/AbrilFatface-Regular.ttf 
+       
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+    - family: Lobster-Regular
+      fonts:
+        - asset: assets/fonts/Lobster-Regular.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
