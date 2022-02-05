@@ -100,6 +100,8 @@ class _StartpageState extends State<Startpage> {
                     ),
                     GestureDetector(
                       onTap: () async {
+                        await Geolocator.requestPermission();
+
                         Position position = await Geolocator.getCurrentPosition(
                             desiredAccuracy: LocationAccuracy.high);
                         Getlocation locat = Getlocation();
