@@ -2,7 +2,6 @@ import 'dart:convert';
 import 'package:geolocator/geolocator.dart';
 import 'package:http/http.dart' as http;
 import 'package:weather_today/models/weather_model.dart';
-import 'package:weather_today/services/location.dart';
 
 class Getlocation {
   Future<Position> _determinePosition() async {
